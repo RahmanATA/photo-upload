@@ -35,7 +35,7 @@ if ($_FILES['file']['size'] != 0) {
     <title></title>
   </head>
   <body>
-    <form class="" action="index.html" method="post" enctype="">
+    <form class="" action="index.html" method="post" enctype="multipart/form-data">
       <input type="file" name="file">
       <button type="submit" name="button">Submit</button>
     </form>
